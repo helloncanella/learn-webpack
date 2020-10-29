@@ -7,17 +7,19 @@ const parts = require("./webpack.parts.js");
 const commonConfig = merge([
   { entry: ["./src"] },
   parts.page({ title: "webpack demo" }),
+  parts.loadCSS(),
 ]);
 
 const productionConfig = merge([]);
 
 const developmentConfig = merge([
-  { entry: ["webpack-plugin-serve/client", parts.devServer()] },
+  { entry: ["webpack-plugin-serve/client"] },
+  parts.devServer(),
 ]);
 
 const getConfig = (mode) => {
   const configs = {
-    production: merge(commonConfig, productionConfig, { mode }),
+    production: merge(commonConfig, productionConfig),
     development: merge(commonConfig, developmentConfig),
   };
 
@@ -28,4 +30,4 @@ const getConfig = (mode) => {
   return config;
 };
 
-return getConfig(mode);
+module.exports = getConfig(mode);

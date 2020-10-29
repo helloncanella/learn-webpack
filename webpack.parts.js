@@ -1,5 +1,4 @@
 const { WebpackPluginServe } = require("webpack-plugin-serve");
-
 const { MiniHtmlWebpackPlugin } = require("mini-html-webpack-plugin");
 
 exports.devServer = () => {
@@ -8,7 +7,7 @@ exports.devServer = () => {
     plugins: [
       new WebpackPluginServe({
         port: process.env.PORT || 8080,
-        static: "./dis",
+        static: "./dist",
         liveReload: true,
         waitForBuild: true,
       }),
@@ -27,3 +26,14 @@ exports.page = ({ title }) => {
     ],
   };
 };
+
+exports.loadCSS = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+});
