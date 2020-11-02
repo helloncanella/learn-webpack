@@ -1,0 +1,1 @@
+self.webpackHotUpdatewebpack_demo(179,{30:(e,t,d)=>{"use strict";d.r(t),d.d(t,{default:()=>n});var o=d(645),c=d.n(o)()((function(e){return e[1]}));c.push([e.id,"body,body *{background:red !important}body h3{font-size:5rem}",""]);const n=c}},(function(e){"use strict";e.h=()=>"d704e3e4fcb63a319dc1"}));

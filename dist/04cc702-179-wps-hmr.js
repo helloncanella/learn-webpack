@@ -1,0 +1,1 @@
+self.webpackHotUpdatewebpack_demo(179,{150:(n,t,e)=>{"use strict";e.r(t),e.d(t,{default:()=>d});var c=e(645),a=e.n(c)()((function(n){return n[1]}));a.push([n.id,"body {\n  background: cornsilk;\n}\n",""]);const d=a}},(function(n){"use strict";n.h=()=>"d43a336414ab06654ebf"}));
