@@ -8,6 +8,7 @@ const { glob } = require("glob");
 
 const commonConfig = merge([
   {
+    mode,
     output: { publicPath: ASSET_PATH },
     entry: { style: glob.sync("./src/**/*.css"), babaca: ["./src"] },
   },
