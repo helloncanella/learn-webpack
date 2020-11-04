@@ -1,6 +1,8 @@
 const { WebpackPluginServe } = require("webpack-plugin-serve");
 const { MiniHtmlWebpackPlugin } = require("mini-html-webpack-plugin");
 
+const APP_SOURCE = "/";
+
 exports.devServer = () => {
   return {
     watch: true,
@@ -15,6 +17,12 @@ exports.devServer = () => {
     ],
   };
 };
+
+exports.loadJavascript = () => ({
+  module: {
+    rules: [{ test: /\.js$/, include: APP_SOURCE, use: "babel-loader" }],
+  },
+});
 
 exports.page = ({ title }) => {
   return {
@@ -99,4 +107,8 @@ exports.extractCSS = ({ options = {}, loaders = [] } = {}) => {
       }),
     ],
   };
+};
+
+exports.generateSourceMaps = ({ type }) => {
+  return { devtool: type };
 };

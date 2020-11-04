@@ -1,1 +1,0 @@
-self.webpackHotUpdatewebpack_demo(217,{655:()=>{console.log("reco")}});

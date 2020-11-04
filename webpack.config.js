@@ -1,23 +1,30 @@
 const { mode } = require("webpack-nano/argv");
 
 const { merge } = require("webpack-merge");
-const ASSET_PATH = process.env.ASSET_PATH || "/";
 
 const parts = require("./webpack.parts.js");
 const { glob } = require("glob");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const commonConfig = merge([
   {
     mode,
-    output: { publicPath: ASSET_PATH },
+    output: {
+      publicPath: "/",
+      path: require("path").resolve(process.cwd(), "dist"),
+    },
     entry: { style: glob.sync("./src/**/*.css"), babaca: ["./src"] },
+    plugins: [new CleanWebpackPlugin()],
   },
   parts.page({ title: "webpack demo" }),
   parts.extractCSS(),
   parts.loadImages({ limit: 1 }),
+  parts.loadJavascript(),
 ]);
 
-const productionConfig = merge([]);
+const productionConfig = merge([
+  parts.generateSourceMaps({ type: "source-map" }),
+]);
 
 const developmentConfig = merge([
   { entry: ["webpack-plugin-serve/client"] },
