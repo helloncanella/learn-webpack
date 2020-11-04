@@ -20,6 +20,7 @@ const commonConfig = merge([
   parts.extractCSS(),
   parts.loadImages({ limit: 1 }),
   parts.loadJavascript(),
+  parts.attachRevision(),
 ]);
 
 const productionConfig = merge([

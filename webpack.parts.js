@@ -1,4 +1,7 @@
 const { WebpackPluginServe } = require("webpack-plugin-serve");
+const GitRevisionPlugin = require("git-revision-webpack-plugin");
+
+const webpack = require("webpack");
 const { MiniHtmlWebpackPlugin } = require("mini-html-webpack-plugin");
 
 const APP_SOURCE = "/";
@@ -111,4 +114,12 @@ exports.extractCSS = ({ options = {}, loaders = [] } = {}) => {
 
 exports.generateSourceMaps = ({ type }) => {
   return { devtool: type };
+};
+
+exports.attachRevision = () => {
+  return {
+    plugins: [
+      new webpack.BannerPlugin({ banner: new GitRevisionPlugin().version() }),
+    ],
+  };
 };
