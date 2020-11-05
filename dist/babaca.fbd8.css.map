@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-demo/src/main.css"],"names":[],"mappings":";AAAA;EACE,oBAAoB;;EAEpB,sCAAmC;EACnC,4BAA4B;EAC5B,2BAA2B;AAC7B","file":"babaca.fbd8.css","sourcesContent":["body {\n  background: cornsilk;\n\n  background-image: url(\"./logo.jpg\");\n  background-repeat: no-repeat;\n  background-position: center;\n}\n"],"sourceRoot":""}
