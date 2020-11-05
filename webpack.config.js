@@ -4,7 +4,6 @@ const { merge } = require("webpack-merge");
 
 const parts = require("./webpack.parts.js");
 const { glob } = require("glob");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const commonConfig = merge([
   {
@@ -12,19 +11,34 @@ const commonConfig = merge([
     output: {
       publicPath: "/",
       path: require("path").resolve(process.cwd(), "dist"),
+      chunkFilename: "[name].[contenthash:4].js",
+      filename: "[name].[contenthash:4].js",
+      assetModuleFilename: "[name].[contenthash:4][ext][query]",
     },
     entry: { style: glob.sync("./src/**/*.css"), babaca: ["./src"] },
-    plugins: [new CleanWebpackPlugin()],
   },
   parts.page({ title: "webpack demo" }),
+  parts.cleanBuild(),
   parts.extractCSS(),
   parts.loadImages({ limit: 1 }),
   parts.loadJavascript(),
   parts.attachRevision(),
+  parts.minifyJavascript(),
+  parts.setFreeVariable("HELLO", "hello from config"),
 ]);
 
 const productionConfig = merge([
   parts.generateSourceMaps({ type: "source-map" }),
+  {
+    optimization: {
+      splitChunks: {
+        chunks: "all",
+      },
+      runtimeChunk: {
+        name: "runtime",
+      },
+    },
+  },
 ]);
 
 const developmentConfig = merge([

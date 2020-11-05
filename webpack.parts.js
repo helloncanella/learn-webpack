@@ -1,6 +1,7 @@
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const { WebpackPluginServe } = require("webpack-plugin-serve");
 const GitRevisionPlugin = require("git-revision-webpack-plugin");
-
+const TerserPlugin = require("terser-webpack-plugin");
 const webpack = require("webpack");
 const { MiniHtmlWebpackPlugin } = require("mini-html-webpack-plugin");
 
@@ -121,5 +122,24 @@ exports.attachRevision = () => {
     plugins: [
       new webpack.BannerPlugin({ banner: new GitRevisionPlugin().version() }),
     ],
+  };
+};
+
+exports.minifyJavascript = () => ({
+  optimization: {
+    minimizer: [new TerserPlugin()],
+  },
+});
+
+exports.cleanBuild = () => ({
+  plugins: [new CleanWebpackPlugin()],
+});
+
+exports.setFreeVariable = (key, value) => {
+  const env = {};
+  env[key] = JSON.stringify(value);
+
+  return {
+    plugins: [new webpack.DefinePlugin(env)],
   };
 };
