@@ -1,8 +1,9 @@
 import component from "./component";
 import "../mico.js";
 import "./main.css";
-import { bake } from "./shake";
+import _ from "lodash";
+const a = { oi: 3 };
 
-bake();
+console.log(_.get(a, "oi"));
 
 document.body.appendChild(component());

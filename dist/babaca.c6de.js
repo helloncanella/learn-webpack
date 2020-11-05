@@ -1,3 +1,0 @@
-/*! For license information please see babaca.c6de.js.LICENSE.txt */
-(self.webpackChunkwebpack_demo=self.webpackChunkwebpack_demo||[]).push([[217],{833:function(){"use strict";console.log("bake"),document.body.appendChild(function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"hello from config",o=document.createElement("h3");return o.innerHTML=e,console.log("rapo"),o}())}},0,[[833,666]]]);
-//# sourceMappingURL=babaca.c6de.js.map
