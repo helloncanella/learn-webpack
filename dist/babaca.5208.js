@@ -1,3 +1,0 @@
-/*! For license information please see babaca.5208.js.LICENSE.txt */
-(self.webpackChunkwebpack_demo=self.webpackChunkwebpack_demo||[]).push([[217],{306:function(e,o,n){"use strict";var c=n(974),l=n.n(c);console.log(l().get({oi:3},"oi")),document.body.appendChild(function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"hello from config",o=document.createElement("h3");return o.innerHTML=e,console.log("rapo"),o}())}},0,[[306,666,974]]]);
-//# sourceMappingURL=babaca.5208.js.map

@@ -4,6 +4,6 @@ import "./main.css";
 import _ from "lodash";
 const a = { oi: 3 };
 
-console.log(_.get(a, "oi"));
+console.log(_.get(a, "oi"), "mico");
 
 document.body.appendChild(component());
