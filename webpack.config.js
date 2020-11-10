@@ -1,4 +1,5 @@
 const { mode } = require("webpack-nano/argv");
+const path = require("path");
 
 const { merge } = require("webpack-merge");
 
@@ -30,6 +31,7 @@ const commonConfig = merge([
 const productionConfig = merge([
   parts.generateSourceMaps({ type: "source-map" }),
   {
+    recordsPath: path.join(__dirname, "records.json"),
     optimization: {
       splitChunks: {
         chunks: "all",
@@ -39,6 +41,13 @@ const productionConfig = merge([
       },
     },
   },
+  {
+    performance: {
+      hints: "warning", // "error" or false are valid too
+      maxEntrypointSize: 50000, // in bytes, default 250k
+      maxAssetSize: 100000, // in bytes
+    },
+  },
 ]);
 
 const developmentConfig = merge([
@@ -46,7 +55,7 @@ const developmentConfig = merge([
   parts.devServer(),
 ]);
 
-const getConfig = (mode) => {
+const getConfig = (mode = "development") => {
   const configs = {
     production: merge(commonConfig, productionConfig),
     development: merge(commonConfig, developmentConfig),

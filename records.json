@@ -1,0 +1,65 @@
+{
+  "chunks": {
+    "byName": {
+      "babaca": 217,
+      "runtime": 666,
+      "style": 296
+    },
+    "bySource": {
+      "0 babaca": 666,
+      "0 style": 666,
+      "1 babaca": 974,
+      "1 style": 296,
+      "2 babaca": 217
+    },
+    "usedIds": [
+      217,
+      296,
+      666,
+      974
+    ]
+  },
+  "mini-css-extract-plugin /home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!./src/main.css": [
+    {
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 323
+        },
+        "bySource": {
+          "0 mini-css-extract-plugin": 323
+        },
+        "usedIds": [
+          323
+        ]
+      },
+      "modules": {
+        "byIdentifier": {
+          "./node_modules/babel-loader/lib/index.js!./node_modules/css-loader/dist/runtime/api.js": 705,
+          "./node_modules/babel-loader/lib/index.js!./node_modules/css-loader/dist/runtime/cssWithMappingToString.js": 880,
+          "./node_modules/babel-loader/lib/index.js!./node_modules/css-loader/dist/runtime/getUrl.js": 742,
+          "./node_modules/css-loader/dist/cjs.js!./src/main.css": 150,
+          "./src/logo.jpg": 135
+        },
+        "usedIds": [
+          135,
+          150,
+          705,
+          742,
+          880
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "./node_modules/babel-loader/lib/index.js!./node_modules/lodash/lodash.js": 974,
+      "./node_modules/babel-loader/lib/index.js!./src/index.js|28f4859db3c2e21216359675cc13d943": 306,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!./node_modules/css-loader/dist/cjs.js!./src/main.css": 212
+    },
+    "usedIds": [
+      212,
+      306,
+      974
+    ]
+  }
+}

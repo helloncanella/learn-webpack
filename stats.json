@@ -1,0 +1,3665 @@
+{
+  "hash": "e67cdbd480bae2a4ccc8",
+  "version": "5.3.1",
+  "time": 12097,
+  "builtAt": 1604679817659,
+  "publicPath": "/",
+  "outputPath": "/home/hellon/projects/webpack-demo/dist",
+  "assetsByChunkName": {
+    "style": [
+      "style.c1b6.css",
+      "style.7bbe.js"
+    ],
+    "babaca": [
+      "babaca.c1b6.css",
+      "babaca.44af.js"
+    ],
+    "runtime": [
+      "runtime.eba3.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "974.12b9.js",
+      "size": 70867,
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "12b9",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "974.12b9.js.LICENSE.txt",
+          "sourceMap": "974.12b9.js.map"
+        },
+        "size": 70867
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "974.12b9.js.map",
+          "size": 688727,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [
+            "vendors"
+          ],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 688727
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            974
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "974.12b9.js.LICENSE.txt",
+          "size": 352,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "size": 352
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        974
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime.eba3.js",
+      "size": 1491,
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "eba3",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "runtime.eba3.js.LICENSE.txt",
+          "sourceMap": "runtime.eba3.js.map"
+        },
+        "size": 1491
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "runtime.eba3.js.map",
+          "size": 8123,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "runtime"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 8123
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            666
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "runtime.eba3.js.LICENSE.txt",
+          "size": 15,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "size": 15
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "logo.9839.jpg",
+      "size": 1042,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/logo.jpg",
+        "immutable": true,
+        "contenthash": "9839",
+        "size": 1042
+      },
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "babaca.44af.js",
+      "size": 502,
+      "chunkNames": [
+        "babaca"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "44af",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "babaca.44af.js.LICENSE.txt",
+          "sourceMap": "babaca.44af.js.map"
+        },
+        "size": 502
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "babaca.44af.js.map",
+          "size": 893,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "babaca"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 893
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            217
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "license",
+          "name": "babaca.44af.js.LICENSE.txt",
+          "size": 15,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "size": 15
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        217
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 446,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 446
+      },
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "babaca.c1b6.css",
+      "size": 197,
+      "chunkNames": [
+        "babaca"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "c1b6",
+        "related": {
+          "sourceMap": "babaca.c1b6.css.map"
+        },
+        "size": 197
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "babaca.c1b6.css.map",
+          "size": 359,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "babaca"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 359
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            217
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        217
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "style.c1b6.css",
+      "size": 196,
+      "chunkNames": [
+        "style"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "c1b6",
+        "related": {
+          "sourceMap": "style.c1b6.css.map"
+        },
+        "size": 196
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "style.c1b6.css.map",
+          "size": 358,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "style"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 358
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            296
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        296
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "style.7bbe.js",
+      "size": 181,
+      "chunkNames": [
+        "style"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "7bbe",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "style.7bbe.js.LICENSE.txt"
+        },
+        "size": 181
+      },
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "style.7bbe.js.LICENSE.txt",
+          "size": 15,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "size": 15
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        296
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 574,
+      "sizes": {
+        "javascript": 436,
+        "css/mini-extract": 138
+      },
+      "names": [
+        "babaca"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "babaca.c1b6.css",
+        "babaca.44af.js"
+      ],
+      "auxiliaryFiles": [
+        "babaca.44af.js.map",
+        "babaca.c1b6.css.map"
+      ],
+      "hash": "27a80a456d2a3c89530e",
+      "childrenByOrder": {},
+      "id": 217,
+      "siblings": [
+        666,
+        974
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/index.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "size": 436,
+          "sizes": {
+            "javascript": 436
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 306,
+          "chunks": [
+            217
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src",
+              "loc": "babaca",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/src/index.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 4,
+              "postOrderIndex": 4,
+              "size": 200,
+              "sizes": {
+                "javascript": 200
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/component.js",
+              "name": "./src/component.js",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/src/component.js",
+              "index": 4,
+              "preOrderIndex": 4,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "size": 236,
+              "sizes": {
+                "javascript": 236
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": false,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "1:0-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./component",
+                  "loc": "9:26-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "identifier": "css /home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 138,
+          "sizes": {
+            "css/mini-extract": 138
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "id": 212
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": 212,
+          "chunks": [
+            217,
+            296
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 212,
+              "resolvedModuleId": 212
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "babaca",
+          "request": "./src"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 188,
+      "sizes": {
+        "javascript": 50,
+        "css/mini-extract": 138
+      },
+      "names": [
+        "style"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "style.c1b6.css",
+        "style.7bbe.js"
+      ],
+      "auxiliaryFiles": [
+        "style.c1b6.css.map"
+      ],
+      "hash": "20199becd27bbb8d3d17",
+      "childrenByOrder": {},
+      "id": 296,
+      "siblings": [
+        666
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 50,
+          "sizes": {
+            "javascript": 50
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 212,
+          "issuerId": null,
+          "chunks": [
+            296
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+              "module": "./src/index.js + 1 modules",
+              "moduleName": "./src/index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./main.css",
+              "loc": "3:0-20",
+              "moduleId": 306,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/main.css",
+              "loc": "style",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "identifier": "css /home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 138,
+          "sizes": {
+            "css/mini-extract": 138
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./src/main.css",
+              "id": 212
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": 212,
+          "chunks": [
+            217,
+            296
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 212,
+              "resolvedModuleId": 212
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "style",
+          "request": "./src/main.css"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 3706,
+      "sizes": {
+        "runtime": 3706
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.eba3.js"
+      ],
+      "auxiliaryFiles": [
+        "runtime.eba3.js.map"
+      ],
+      "hash": "f237745eb991986a73f1",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [
+        217,
+        296,
+        974
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 302,
+          "sizes": {
+            "runtime": 302
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 2639,
+          "sizes": {
+            "runtime": 2639
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 128,
+          "sizes": {
+            "runtime": 128
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "babaca",
+          "request": "./src"
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "style",
+          "request": "./src/main.css"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 479338,
+      "sizes": {
+        "javascript": 479338
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "974.12b9.js"
+      ],
+      "auxiliaryFiles": [
+        "974.12b9.js.map"
+      ],
+      "hash": "4fd05fa64f54a6af4a31",
+      "childrenByOrder": {},
+      "id": 974,
+      "siblings": [
+        217,
+        666
+      ],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "size": 479338,
+          "sizes": {
+            "javascript": 479338
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 974,
+          "issuerId": null,
+          "chunks": [
+            974
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2620-2627",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2630-2646",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2648-2655",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2746-2752",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2755-2761",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:2772-2778",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9453:18-22",
+              "moduleId": 974,
+              "resolvedModuleId": 974
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+              "module": "./src/index.js + 1 modules",
+              "moduleName": "./src/index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "4:0-23",
+              "moduleId": 306,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+              "module": "./src/index.js + 1 modules",
+              "moduleName": "./src/index.js + 1 modules",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "8:12-17",
+              "moduleId": 306,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 9453:18-22",
+            "CommonJS bailout: exports is used directly at 19:2620-2627",
+            "CommonJS bailout: exports is used directly at 19:2648-2655",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "babaca",
+          "request": "./src"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 212,
+      "issuerId": null,
+      "chunks": [
+        296
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "3:0-20",
+          "moduleId": 306,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/main.css",
+          "loc": "style",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/src/index.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "size": 436,
+      "sizes": {
+        "javascript": 436
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 306,
+      "chunks": [
+        217
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src",
+          "loc": "babaca",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/index.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "size": 200,
+          "sizes": {
+            "javascript": 200
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/component.js",
+          "name": "./src/component.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/component.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "size": 236,
+          "sizes": {
+            "javascript": 236
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": false,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "1:0-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./component",
+              "loc": "9:26-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "identifier": "css /home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/main.css",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "size": 138,
+      "sizes": {
+        "css/mini-extract": 138
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "name": "./src/main.css",
+          "id": 212
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 212,
+      "chunks": [
+        217,
+        296
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js??[[missing ident]]!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 212,
+          "resolvedModuleId": 212
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "size": 479338,
+      "sizes": {
+        "javascript": 479338
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 974,
+      "issuerId": null,
+      "chunks": [
+        974
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2620-2627",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2630-2646",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2648-2655",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2746-2752",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2755-2761",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:2772-2778",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "9453:18-22",
+          "moduleId": 974,
+          "resolvedModuleId": 974
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "4:0-23",
+          "moduleId": 306,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "8:12-17",
+          "moduleId": 306,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 9453:18-22",
+        "CommonJS bailout: exports is used directly at 19:2620-2627",
+        "CommonJS bailout: exports is used directly at 19:2648-2655",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/component.js",
+      "name": "./src/component.js",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/src/component.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "size": 236,
+      "sizes": {
+        "javascript": 236
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "1:0-36",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./component",
+          "loc": "9:26-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/mico.js",
+      "name": "./mico.js",
+      "nameForCondition": "/home/hellon/projects/webpack-demo/mico.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 1,
+      "sizes": {
+        "javascript": 1
+      },
+      "cacheable": true,
+      "built": true,
+      "codeGenerated": false,
+      "cached": false,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js|28f4859db3c2e21216359675cc13d943",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "../mico.js",
+          "loc": "2:0-20",
+          "moduleId": 306,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 2639,
+      "sizes": {
+        "runtime": 2639
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "size": 128,
+      "sizes": {
+        "runtime": 128
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "style": {
+      "name": "style",
+      "chunks": [
+        666,
+        296
+      ],
+      "assets": [
+        {
+          "name": "runtime.eba3.js",
+          "size": 1491
+        },
+        {
+          "name": "style.c1b6.css",
+          "size": 196
+        },
+        {
+          "name": "style.7bbe.js",
+          "size": 181
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1868,
+      "auxiliaryAssets": [
+        {
+          "name": "runtime.eba3.js.map",
+          "size": 8123
+        },
+        {
+          "name": "style.c1b6.css.map",
+          "size": 358
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 8481,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "babaca": {
+      "name": "babaca",
+      "chunks": [
+        666,
+        974,
+        217
+      ],
+      "assets": [
+        {
+          "name": "runtime.eba3.js",
+          "size": 1491
+        },
+        {
+          "name": "974.12b9.js",
+          "size": 70867
+        },
+        {
+          "name": "babaca.c1b6.css",
+          "size": 197
+        },
+        {
+          "name": "babaca.44af.js",
+          "size": 502
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 73057,
+      "auxiliaryAssets": [
+        {
+          "name": "974.12b9.js.map",
+          "size": 688727
+        },
+        {
+          "name": "babaca.44af.js.map",
+          "size": 893
+        },
+        {
+          "name": "babaca.c1b6.css.map",
+          "size": 359
+        },
+        {
+          "name": "runtime.eba3.js.map",
+          "size": 8123
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 698102,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "style": {
+      "name": "style",
+      "chunks": [
+        666,
+        296
+      ],
+      "assets": [
+        {
+          "name": "runtime.eba3.js",
+          "size": 1491
+        },
+        {
+          "name": "style.c1b6.css",
+          "size": 196
+        },
+        {
+          "name": "style.7bbe.js",
+          "size": 181
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1868,
+      "auxiliaryAssets": [
+        {
+          "name": "runtime.eba3.js.map",
+          "size": 8123
+        },
+        {
+          "name": "style.c1b6.css.map",
+          "size": 358
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 8481,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "babaca": {
+      "name": "babaca",
+      "chunks": [
+        666,
+        974,
+        217
+      ],
+      "assets": [
+        {
+          "name": "runtime.eba3.js",
+          "size": 1491
+        },
+        {
+          "name": "974.12b9.js",
+          "size": 70867
+        },
+        {
+          "name": "babaca.c1b6.css",
+          "size": 197
+        },
+        {
+          "name": "babaca.44af.js",
+          "size": 502
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 73057,
+      "auxiliaryAssets": [
+        {
+          "name": "974.12b9.js.map",
+          "size": 688727
+        },
+        {
+          "name": "babaca.44af.js.map",
+          "size": 893
+        },
+        {
+          "name": "babaca.c1b6.css.map",
+          "size": 359
+        },
+        {
+          "name": "runtime.eba3.js.map",
+          "size": 8123
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 698102,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "mini-css-extract-plugin /home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+      "hash": "0c356065cbf32a8410f7",
+      "version": "5.3.1",
+      "time": 2109,
+      "builtAt": 1604679807918,
+      "publicPath": "/",
+      "outputPath": "/home/hellon/projects/webpack-demo/dist",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "type": "asset",
+          "name": "logo.9839.jpg",
+          "size": 1042,
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "mini-css-extract-plugin"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/logo.jpg",
+            "immutable": true,
+            "contenthash": "9839"
+          },
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            323
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 8099,
+          "sizes": {
+            "javascript": 6032,
+            "asset": 1042,
+            "runtime": 1025
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [
+            "logo.9839.jpg"
+          ],
+          "hash": "6ff2df4535b0dd4f5f0f",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 4,
+              "postOrderIndex": 4,
+              "size": 1182,
+              "sizes": {
+                "javascript": 1182
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 150,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "id": 150
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 705,
+              "issuerId": 150,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 705,
+                  "resolvedModuleId": 705
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-89",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "6:30-57",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "size": 2373,
+              "sizes": {
+                "javascript": 2373
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "id": 150
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 880,
+              "issuerId": 150,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "61:0-14",
+                  "moduleId": 880,
+                  "resolvedModuleId": 880
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "2:0-118",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "6:58-95",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 61:0-14",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+              "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+              "index": 3,
+              "preOrderIndex": 3,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "size": 830,
+              "sizes": {
+                "javascript": 830
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "id": 150
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 742,
+              "issuerId": 150,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+                  "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "3:0-14",
+                  "moduleId": 742,
+                  "resolvedModuleId": 742
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+                  "loc": "4:0-96",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+                  "loc": "7:41-72",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 3:0-14",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset",
+              "identifier": "/home/hellon/projects/webpack-demo/src/logo.jpg",
+              "name": "./src/logo.jpg",
+              "nameForCondition": "/home/hellon/projects/webpack-demo/src/logo.jpg",
+              "index": 4,
+              "preOrderIndex": 4,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "size": 42,
+              "sizes": {
+                "javascript": 42,
+                "asset": 1042
+              },
+              "cacheable": true,
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "id": 150
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 135,
+              "issuerId": 150,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./logo.jpg",
+                  "loc": "5:0-55",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                },
+                {
+                  "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./logo.jpg",
+                  "loc": "7:73-102",
+                  "moduleId": 150,
+                  "resolvedModuleId": 150
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module Concatenation is not implemented for AssetGenerator"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "size": 28,
+              "sizes": {
+                "runtime": 28
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/main.css",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "size": 1182,
+          "sizes": {
+            "javascript": 1182
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 150,
+          "issuerId": null,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "loc": "mini-css-extract-plugin",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module uses module.id"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "size": 2373,
+          "sizes": {
+            "javascript": 2373
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "id": 150
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 880,
+          "issuerId": 150,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "61:0-14",
+              "moduleId": 880,
+              "resolvedModuleId": 880
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "2:0-118",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "6:58-95",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 61:0-14",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "size": 1605,
+          "sizes": {
+            "javascript": 1605
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "id": 150
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 705,
+          "issuerId": 150,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:0-14",
+              "moduleId": 705,
+              "resolvedModuleId": 705
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "6:30-57",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 9:0-14",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "identifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+          "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "size": 830,
+          "sizes": {
+            "javascript": 830
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "id": 150
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 742,
+          "issuerId": 150,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+              "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/babel-loader/lib/index.js!/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/runtime/getUrl.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": 742,
+              "resolvedModuleId": 742
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "4:0-96",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "7:41-72",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset",
+          "identifier": "/home/hellon/projects/webpack-demo/src/logo.jpg",
+          "name": "./src/logo.jpg",
+          "nameForCondition": "/home/hellon/projects/webpack-demo/src/logo.jpg",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "size": 42,
+          "sizes": {
+            "javascript": 42,
+            "asset": 1042
+          },
+          "cacheable": true,
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "id": 150
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 135,
+          "issuerId": 150,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./logo.jpg",
+              "loc": "5:0-55",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            },
+            {
+              "moduleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "/home/hellon/projects/webpack-demo/node_modules/css-loader/dist/cjs.js!/home/hellon/projects/webpack-demo/src/main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./logo.jpg",
+              "loc": "7:73-102",
+              "moduleId": 150,
+              "resolvedModuleId": 150
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for AssetGenerator"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 302,
+          "sizes": {
+            "runtime": 302
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "size": 28,
+          "sizes": {
+            "runtime": 28
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [
+            {
+              "name": "logo.9839.jpg"
+            }
+          ],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": null,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [
+            {
+              "name": "logo.9839.jpg"
+            }
+          ],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": null,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}

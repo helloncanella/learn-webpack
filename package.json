@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch webpack.* --exec \"wp --mode development\"",
-    "build": "wp --mode production"
+    "build": "wp --mode production",
+    "build:stats": "wp --mode production --json >> stats.json",
+    "build:ssr": "wp --config webpack.ssr.js"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +16,12 @@
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
     "babel-loader": "^8.1.0",
+    "browser-refresh": "^1.7.3",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.0",
+    "express": "^4.17.1",
     "fast-sass-loader": "^1.5.0",
     "git-revision-webpack-plugin": "^3.0.6",
     "glob": "^7.1.6",
@@ -34,6 +39,8 @@
     "webpack-plugin-serve": "^1.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
